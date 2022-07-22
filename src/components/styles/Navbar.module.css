@@ -1,0 +1,52 @@
+.headerNavbar {
+  position: fixed;
+  width: 100%;
+  height: 10rem;
+  z-index: 100;
+  display: flex;
+  backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 50px 0px rgba(0, 0, 0, 0.08);
+}
+
+.headerNavbar__logo {
+  width: 15rem;
+  background-color: black;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerNavbar__links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.headerNavbar__linksPrimary {
+  display: flex;
+  font-family: axiform-bold;
+  font-size: 1.35rem;
+  color: #555;
+}
+.headerNavbar__linksPrimary li {
+  padding: 1rem 3rem;
+}
+.headerNavbar__linksSecondary {
+  display: flex;
+  font-family: axiform-bold;
+  font-size: 1.78rem;
+  color: #111;
+}
+.headerNavbar__linksSecondary li {
+  padding: 1rem 3rem;
+}
+
+.headerNavbar__right {
+  width: 20rem;
+  height: 10rem;
+  background-color: black;
+  clip-path: circle(85.8% at 89% 25%);
+}

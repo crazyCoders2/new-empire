@@ -1,0 +1,20 @@
+@font-face {
+  font-family: axiform-bold;
+  src: url('./axiform-bold.ttf');
+}
+@font-face {
+  font-family: axiform-semiBold;
+  src: url('./axiform-semiBold.ttf');
+}
+@font-face {
+  font-family: axiform-thin;
+  src: url('./axiform-thin.ttf');
+}
+@font-face {
+  font-family: axiform-light;
+  src: url('./axiform-light.ttf');
+}
+@font-face {
+  font-family: axiform-regular;
+  src: url('./axiform-regular.ttf');
+}
