@@ -1,0 +1,5 @@
+/* == Header Showcase == */
+.showcase {
+  margin-top: 10rem;
+  height: calc(100vh - 10rem);
+}

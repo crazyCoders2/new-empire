@@ -1,0 +1,29 @@
+.sectionAbout {
+  text-align: center;
+  padding: 6rem;
+}
+.sectionAbout__content {
+  width: 150rem;
+  margin: auto;
+  display: flex;
+}
+.sectionAbout__contentImages {
+  position: relative;
+}
+.sectionAbout__contentImages img {
+  width: 25rem;
+}
+.sectionAbout__contentImages img:last-child {
+  position: absolute;
+  top: 4rem;
+  right: 1rem;
+}
+.sectionAbout__contentText {
+  font-size: 2rem;
+  font-family: axiform-regular;
+  color: #666;
+  text-align: left;
+}
+.sectionAbout__contentText p:not(:last-child) {
+  margin-bottom: 1.5rem;
+}

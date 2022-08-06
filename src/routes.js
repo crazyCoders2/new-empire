@@ -1,7 +1,9 @@
 import { Routes, Route } from 'react-router-dom'
 
 /* == Pages == */
+import Layout from './components/Layout'
 import HomePage from './pages/Home'
+import BarPage from './pages/Bar'
 
 /* == All the routes associated with admin == */
 const AdminRoutes = () => {
@@ -18,6 +20,7 @@ const DefaultRoutes = () => {
   return (
     <Routes>
       <Route path='/' element={<HomePage />}></Route>
+      <Route path='/bar' element={<BarPage />}></Route>
     </Routes>
   )
 }
@@ -29,5 +32,9 @@ export default function Router() {
   else if (userRole === 'customer') RoutesToHandle = CustomerRoutes
   else RoutesToHandle = DefaultRoutes
 
-  return <RoutesToHandle />
+  return (
+    <Layout>
+      <RoutesToHandle />
+    </Layout>
+  )
 }

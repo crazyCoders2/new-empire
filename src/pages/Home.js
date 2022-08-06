@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { IoIosSearch } from 'react-icons/io'
-import Navbar from '../components/Navbar'
 import Card from '../components/Card'
+import HeaderShowcase from '../components/HeaderShowcase'
 import { getPopularEvents } from '../data'
 import styles from './styles/Home.module.css'
 
@@ -13,12 +13,8 @@ const HomePage = () => {
   }, [])
   return (
     <>
-      <header className={styles.header}>
-        {/* == Navigation bar == */}
-        <Navbar />
-        {/* == Header Showcase == */}
-        <div className={styles.showcase}></div>
-      </header>
+      {/* == Header Showcase == */}
+      <HeaderShowcase />
       {/* == Popular Events Section == */}
       <section className={styles.sectionEvents}>
         <h2 className='heading-secondary'>Popular Events</h2>
