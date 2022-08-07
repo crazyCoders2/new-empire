@@ -16,6 +16,7 @@ html {
 body {
   box-sizing: border-box;
   color: #111;
+  overflow-x: hidden;
 }
 
 a {
@@ -72,6 +73,7 @@ li {
 
 .text {
   font-size: 1.6rem;
+  font-family: axiform-bold;
 }
 
 .btn {
