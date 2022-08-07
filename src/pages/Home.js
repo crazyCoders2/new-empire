@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react'
 import { IoIosSearch } from 'react-icons/io'
+import About from '../components/About'
 import Card from '../components/Card'
 import HeaderShowcase from '../components/HeaderShowcase'
 import { getPopularEvents } from '../data'
@@ -50,6 +51,13 @@ const HomePage = () => {
           <div className={styles.sectionFeatures__bannerImage}></div>
         </div>
       </section>
+      {/* == About Section == */}
+      <About
+        image="ticket.png"
+        title="About Us"
+        text1="New Empire Cinema is a single screen cinema hall located in Humayun Place in New Market, (opposite Shreeram Arcade), Kolkata, West Bengal, India."
+        text2="It was established in the late 1950s under the chairmenship of V. Shantaram, the First International New Youth Film was held in New Empire."
+      />
     </>
   )
 }

@@ -1,5 +1,59 @@
 /* == Header Showcase == */
+
 .showcase {
   margin-top: 10rem;
   height: calc(100vh - 10rem);
+  background-image:
+  linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),
+  url('../../../public//movie-threatre.jpg');
+    position: relative;
+  background-size: cover;
+  animation: zoomin 10s ease-in infinite;
+  transition: all .5s ease-in-out;
+  overflow: hidden;
 }
+
+
+.showcase h1{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 4.5rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.showcase h2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 0 0 10px #000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5rem;
+}
+
+/* Zoom in Keyframes */
+@-webkit-keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+@keyframes zoomin {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+} /*End of Zoom in Keyframes */
+

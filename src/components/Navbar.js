@@ -9,7 +9,7 @@ const Navbar = () => {
       {/* == Navbar Logo == */}
       <div className={styles.headerNavbar__logo}>
         <a href='/' className={styles.headerNavbar__logoImg}>
-          <img src='/static/logo.svg' alt='lwtheatres logo' />
+          <img src='logo.jpeg' alt='lwtheatres logo' />
         </a>
       </div>
       {/* == Navbar links == */}
