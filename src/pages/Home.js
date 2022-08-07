@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { IoIosSearch } from 'react-icons/io'
-import Navbar from '../components/Navbar'
 import Card from '../components/Card'
+import HeaderShowcase from '../components/HeaderShowcase'
 import { getPopularEvents } from '../data'
 import styles from './styles/Home.module.css'
 import Zoom from 'react-reveal/Zoom';
@@ -15,6 +15,7 @@ const HomePage = () => {
   }, [])
   return (
     <>
+     {/* == Header Showcase == */}
       <header className={styles.header}>
         {/* == Navigation bar == */}
         <Navbar />

@@ -1,3 +1,4 @@
+
 /* == Header == */
 .header {
   height: 110vh;
@@ -62,11 +63,6 @@
   50% {transform: scale(1.1);}
   100% {transform: scale(1);}
 } /*End of Zoom in Keyframes */
-
-
-
-
-
 
 
 /* == Popular Events Section == */
